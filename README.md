@@ -53,25 +53,16 @@ streamlit run app.py
 Folder Structure:
 
 bank-customer-churn-ann/
+│
 ├── app.py
 ├── requirements.txt
+├── model_ann_bank_churn.h5
+├── scaler.pkl
+├── one_hot_encoder_geo.pkl
+├── label_encoder_gender.pkl
 ├── README.md
 ├── LICENSE
-│
-├── models/
-│   └── model_ann_bank_churn.h5
-│
-├── artifacts/
-│   ├── scaler.pkl
-│   ├── one_hot_encoder_geo.pkl
-│   └── label_encoder_gender.pkl
-│
-├── notebooks/
-│   ├── bank_dataset_ann.ipynb
-│   └── prediction.ipynb
-│
-└── data/
-    └── Churn_Modelling.csv
+
 
 Sample Input Features
 
