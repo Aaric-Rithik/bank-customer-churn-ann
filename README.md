@@ -1,8 +1,3 @@
-Perfect 👍
-Here’s a **clean, resume-ready, non-GPT-tone README** you can directly paste into your repository. It looks professional, clear, and senior-level.
-
----
-
 # Bank Customer Churn Prediction (ANN)
 
 This project predicts whether a bank customer is likely to churn using an **Artificial Neural Network (ANN)**.
