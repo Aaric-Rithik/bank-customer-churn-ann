@@ -1,7 +1,7 @@
 # Bank Customer Churn Prediction (ANN)
 
-This project predicts whether a bank customer is likely to churn using an **Artificial Neural Network (ANN)**.
-It includes data preprocessing, model training, and a **Streamlit-based web application** for real-time predictions.
+This project predicts whether a bank customer is likely to churn using an Artificial Neural Network (ANN).  
+It includes data preprocessing, model training, and a Streamlit-based web application for real-time predictions.
 
 ---
 
@@ -15,22 +15,22 @@ The application allows users to input customer details and instantly see churn l
 
 ## Tech Stack
 
-* **Python**
-* **TensorFlow / Keras**
-* **Scikit-learn**
-* **Pandas, NumPy**
-* **Streamlit**
-* **Pickle**
+- Python  
+- TensorFlow / Keras  
+- Scikit-learn  
+- Pandas, NumPy  
+- Streamlit  
+- Pickle  
 
 ---
 
 ## Features
 
-* ANN-based churn prediction model
-* One-hot encoding for categorical variables
-* Feature scaling using StandardScaler
-* Interactive Streamlit UI for predictions
-* Clean separation of model, preprocessing, and UI
+- ANN-based churn prediction model  
+- One-hot encoding for categorical variables  
+- Feature scaling using StandardScaler  
+- Interactive Streamlit UI for predictions  
+- Clean separation of model, preprocessing, and UI  
 
 ---
 
@@ -39,7 +39,7 @@ The application allows users to input customer details and instantly see churn l
 1. User enters customer details (age, balance, credit score, etc.)
 2. Inputs are encoded and scaled using trained preprocessors
 3. ANN model predicts churn probability
-4. App displays whether the customer is **likely to churn or not**
+4. App displays whether the customer is likely to churn or not
 
 ---
 
@@ -48,13 +48,10 @@ The application allows users to input customer details and instantly see churn l
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-```
 
----
 
-### **Folder Structure**
+Folder Structure:
 
-```text
 bank-customer-churn-ann/
 ├── app.py
 ├── requirements.txt
@@ -75,46 +72,33 @@ bank-customer-churn-ann/
 │
 └── data/
     └── Churn_Modelling.csv
-```
 
----
+Sample Input Features
 
-## Sample Input Features
+Credit Score
+Geography
+Gender
+Age
+Tenure
+Balance
+Number of Products
+Credit Card Status
+Active Member Status
+Estimated Salary
 
-* Credit Score
-* Geography
-* Gender
-* Age
-* Tenure
-* Balance
-* Number of Products
-* Credit Card Status
-* Active Member Status
-* Estimated Salary
+Output
+Churn probability score
+Clear message:
+✅ Customer is not likely to churn
+⚠️ Customer is likely to churn
 
----
-
-## Output
-
-* Churn probability score
-* Clear message:
-
-  * ✅ Customer is not likely to churn
-  * ⚠️ Customer is likely to churn
-
----
-
-## Use Case
-
+Use Case
 This project can be used by:
+Banks for retention analysis
+Data science learners for ANN practice
+Interview demonstrations for ML/AI roles
 
-* Banks for retention analysis
-* Data science learners for ANN practice
-* Interview demonstrations for ML/AI roles
+License
 
----
-
-## License
-
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
 
